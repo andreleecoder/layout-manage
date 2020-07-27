@@ -113,12 +113,4 @@ ol.list li::before {
     padding: 7px 15px;
 }
 
-@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
-    .ie9up.navbar {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 30px 5px;
-    }
-}
-
 @media screen and ( max-width:375px) {}
