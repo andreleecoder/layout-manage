@@ -82,12 +82,22 @@ nav>a:hover {
 }
 
 .text-block {
-    padding: 40px;
+    padding: 30px;
 }
 
 .text-block>h1 {
     font-size: 3.5rem;
     line-height: 60px;
+}
+
+.text-block>h2 {
+    font-size: 2.5rem;
+    line-height: 45px;
+}
+
+.text-block>h3 {
+    font-size: 1.5rem;
+    line-height: 45px;
 }
 
 .text-block>p {
@@ -111,6 +121,41 @@ ol.list li::before {
     color: #fff;
     border-radius: 20px;
     padding: 7px 15px;
+    margin-right: 10px;
+}
+
+ol.list li>p {
+    max-width: 70%;
+    margin-left: 9%;
+}
+
+.middle-row1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.testimonials-container {
+    display: flex;
+    text-align: center;
+}
+
+.middle-row2>h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.testimonial-item {
+    width: 33%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 4rem;
+    margin: 5px auto;
 }
 
 @media screen and ( max-width:375px) {}
